@@ -1,0 +1,53 @@
+.picker {
+  &__date {
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    &--gray {
+      color: #cdcdd8;
+    }
+  }
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    &--sm {
+      width: 80%;
+    }
+  }
+  &__btn-group {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+  }
+  &__title {
+    flex: 1;
+    font-size: 32px;
+    text-align: center;
+  }
+  &__cancel,
+  &__confirm {
+    padding: 0;
+    width: 120px;
+    font-size: 32px;
+    background-color: #fff;
+  }
+  &__mask {
+    width: 100%;
+    height: 100px;
+    // background-color: aqua;
+  }
+  &__column {
+    flex: 3;
+    &--lg {
+      flex: 5;
+    }
+  }
+}
+picker-view {
+  // padding: 25px 0;
+}
